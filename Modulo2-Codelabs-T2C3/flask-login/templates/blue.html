@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueEdtech</title>
+    <!-- <link rel="stylesheet" href="/static/style.css"/> -->
+    <style>
+    .blue {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .container-azul {
+        background-color: blue;
+        padding: 10px;
+        color: white;
+        text-align: center;
+    }
+    .container-item {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .item1 {
+        background-color: yellow;
+        border: 1px black solid;
+        padding: 10px;
+        border-radius: 20px;
+        color: black;
+        margin: 1%;
+        text-align: left;
+        flex-grow: 1;
+    }
+    .item2 {
+        background-color: rgb(241, 62, 122);
+        margin: 1%;
+        border: 1px black solid;
+        padding: 10px;
+        border-radius: 20px;
+        color: black;
+        flex-grow: 1;
+        text-align: left;
+    }
+    table th, td{
+    border: 1px black solid;
+    padding: 3px;
+    width: 100%
+}
+    </style>
+</head>
+<body>
+    <div class="blue">
+        <img src="/static/logo-blue-croped.gif" width="100px"/>
+        <h1>Blueedtech</h1>
+    </div>
+    <div class="container-azul">
+        <h2>Titulo Dessa Div Que Contém As Outras</h2>
+        <div class="container-item">
+            <div class="item1">
+                <h3>Titulo dessa Div</h3>
+                <ul>
+                    <li>Primeiro Tópico da Lista</li>
+                    <li>Segundo Tópico da Lista</li>
+                    <li>Terceiro Tópico da Lista</li>
+                </ul>
+            </div>
+            <div class="item2">
+                <h3>Título dessa outra Div</h3>
+                <table>
+                    <tr>
+                        <th id="item">Tabela</th>
+                        <th>É o que?</th>
+                    </tr>
+                    <tr>
+                        <td>Eurico Nicácio</td>
+                        <td>Da Massa</td>
+                    </tr>
+                    <tr>
+                        <td>Fábio Heroku</td>
+                        <td>Da Massa</td>
+                    </tr>
+                </table>
+            </div>
+        </div>  
+    </div>
+</body>
+</html>
